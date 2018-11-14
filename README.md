@@ -5,7 +5,8 @@ Tool for predicting the level of linguistic and technical standardness of a Slov
 ## Dependencies
 
 python2.7
-sklearn
+
+sklearn 0.17 (newer versions might / should work)
 
 ## Usage
 

@@ -143,7 +143,10 @@ def parend_sentpunc_ratio(text):
     if paragraph[-1] in u'.!?…':
       sentpunc+=1
     par+=1
-  return sentpunc/par
+  if par==0:
+    return 0.
+  else:
+    return sentpunc/par
 
 def alpha_ratio(text):
   text=text.replace('#REP#','')
